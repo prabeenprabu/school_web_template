@@ -499,6 +499,10 @@ header {
     .courses__container {
         grid-template-columns: 1fr;
     }
+    /* ---------------------faqs----------- */
+    .faq {
+        padding: 1rem;
+    }
     /* ---------------------footer----------- */
     .footer__container {
         grid-template-columns: 1fr;
