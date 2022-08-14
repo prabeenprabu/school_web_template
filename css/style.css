@@ -303,7 +303,7 @@ header {
     width: 3rem;
     height: 3rem;
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: -1.5rem;
     transform: rotate(45deg);
 }
@@ -495,6 +495,9 @@ header {
     .category__icon {
         margin-top: 4px;
     }
+    .categories__left {
+        text-align: center;
+    }
     /* ---------------------courses----------- */
     .courses__container {
         grid-template-columns: 1fr;
@@ -511,5 +514,42 @@ header {
     }
     .footer__socials {
         justify-content: center;
+    }
+}
+
+/* -------------------mobile screen------------------- */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
+    .header__left a {
+        margin: 1rem 0 2.5rem;
+    }
+    /* ------------------category-------------- */
+    .categories__right {
+        grid-template-columns: 1fr;
+    }
+    /* ----------------------faqs-------------- */
+    .faq h4 {
+        font-size: 0.7rem;
+    }
+    .faq {
+        padding: 0.5rem;
+        gap: 1rem;
+    }
+    .faq__icon {
+        font-size: 1rem;
     }
 }
